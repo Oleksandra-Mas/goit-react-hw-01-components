@@ -6,6 +6,9 @@
     width: 330px;
     max-width: 100%;
     text-align: center;
+
+    background-color: #fff;
+
     & p + p {
         margin-top: 10px;
     }
@@ -26,6 +29,8 @@
     padding: 0;
     justify-content: center;
     background-color: #f3f6f9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
     & li {
         display: flex;
