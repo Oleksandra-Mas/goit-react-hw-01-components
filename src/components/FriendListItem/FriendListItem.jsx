@@ -2,14 +2,14 @@ import PropTypes from 'prop-types';
 function FriendListItem({ friend }) {
     const { name, avatar, isOnline } = friend;
     return (
-        <li class="item">
+        <li className="item">
             {isOnline ? (
-                <span class="status online">green</span>
+                <span className="status online">green</span>
             ) : (
-                <span class="status offline">red</span>
+                <span className="status offline">red</span>
             )}
-            <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>
+            <img className="avatar" src={avatar} alt="User avatar" width="48" />
+            <p className="name">{name}</p>
         </li>
     );
 }

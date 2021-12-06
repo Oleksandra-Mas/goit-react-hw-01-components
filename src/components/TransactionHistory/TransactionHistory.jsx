@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 function TransactionHistory({ items }) {
     return (
-        <table class="transaction-history">
+        <table className="transaction-history">
             <thead>
                 <tr>
                     <th>Type</th>
