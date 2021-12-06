@@ -6,12 +6,12 @@
     width: 330px;
     max-width: 100%;
     text-align: center;
-}
-.profile p + p {
-    margin-top: 10px;
-}
-.profile:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    & p + p {
+        margin-top: 10px;
+    }
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
 }
 
 .avatar {
@@ -26,17 +26,18 @@
     padding: 0;
     justify-content: center;
     background-color: #f3f6f9;
-}
-.stats li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px 0;
-    width: calc(100% / 3);
-    border-top: 1px solid #e1e7ef;
-}
-.stats li + li {
-    border-left: 1px solid #e1e7ef;
+
+    & li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0;
+        width: calc(100% / 3);
+        border-top: 1px solid #e1e7ef;
+    }
+    & li + li {
+        border-left: 1px solid #e1e7ef;
+    }
 }
 .name,
 .quantity {
