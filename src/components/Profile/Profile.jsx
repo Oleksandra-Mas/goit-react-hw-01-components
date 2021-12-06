@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './Profile.module.scss';
 function Profile({ username, tag, location, avatar, stats }) {
-    console.log(styles);
     return (
         <div className={styles.profile}>
             <div className={styles.description}>

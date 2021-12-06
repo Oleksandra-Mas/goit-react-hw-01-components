@@ -22,7 +22,7 @@ function App() {
             <Statistics title="Upload stats" stats={statistics} />
             <Statistics stats={statistics} />
             <FriendList friends={friends} />
-            <TransactionHistory items={transactions} />;
+            <TransactionHistory items={transactions} />
         </div>
     );
 }
